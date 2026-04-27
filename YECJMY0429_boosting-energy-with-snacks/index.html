@@ -2,19 +2,31 @@
 <html lang="en">
 <head>
 
-    <!-- Meta Pixel Code -->
-
-    <meta http-equiv="delegate-ch" content="sec-ch-ua https://rativelypormailer.com; sec-ch-ua-mobile https://rativelypormailer.com; sec-ch-ua-arch https://rativelypormailer.com; sec-ch-ua-model https://rativelypormailer.com; sec-ch-ua-platform https://rativelypormailer.com; sec-ch-ua-platform-version https://rativelypormailer.com; sec-ch-ua-bitness https://rativelypormailer.com; sec-ch-ua-full-version-list https://rativelypormailer.com; sec-ch-ua-full-version https://rativelypormailer.com"><style>.dtpcnt{opacity: 0;}</style>
-    <script>
-        (function(d,c,k,l,r,t,g,u,A,e,m,v,B,a,n,p,h,q,w,D,x){function y(){for(var f=c.querySelectorAll(".dtpcnt"),b=0,a=f.length;b<a;b++)f[b][u]=f[b][u].replace(/(^|\s+)dtpcnt($|\s+)/g,"")}function C(a,b,d,e){var f=new Date;f.setTime(f.getTime()+(e||864E5));c.cookie=a+"="+b+"; "+d+"samesite=Strict; expires="+f.toGMTString()+"; path=/";k.setItem(a,b);k.setItem(a+"-expires",f.getTime())}function z(a){var b=c.cookie.match(new RegExp("(^| )"+a+"=([^;]+)"));return b?b.pop():k.getItem(a+"-expires")&&+k.getItem(a+
-    "-expires")>(new Date).getTime()?k.getItem(a):null}x="https:"===d.location.protocol?"secure; ":"";d[e]||(d[e]=function(){(d[e].q=d[e].q||[]).push(arguments)},p=c[r],c[r]=function(){p&&p.apply(this,arguments);if(d[e]&&!d[e].hasOwnProperty("params")&&/loaded|interactive|complete/.test(c.readyState))for(;a=c[t][m++];)/\/?click\/?($|(\/[0-9]+)?$)/.test(a.pathname)&&(a[g]="javascrip"+d.postMessage.toString().slice(4,5)+":"+e+'.l="'+a[g]+'",void 0')},setTimeout(function(){(q=/[?&]cpid(=([^&#]*)|&|#|$)/.exec(d.location.href))&&
-    q[2]&&(h=q[2],w=z("vl-"+h));var f=z("vl-cep"),b=location[g];if("savedCep"===B&&f&&(!h||"undefined"===typeof h)&&0>b.indexOf("cep=")){var e=-1<b.indexOf("?")?"&":"?";b+=e+f}a=c.createElement("script");n=c.scripts[0];a.defer=1;a.src=v+(-1===v.indexOf("?")?"?":"&")+"lpref="+l(c.referrer)+"&lpurl="+l(b)+"&lpt="+l(c.title)+"&vtm="+(new Date).getTime()+(w?"&uw=no":"");a[A]=function(){for(m=0;a=c[t][m++];)/dtpCallback\.l/.test(a[g])&&(a[g]=decodeURIComponent(a[g]).match(/dtpCallback\.l="([^"]+)/)[1]);y()};
-    n.parentNode.insertBefore(a,n);h&&C("vl-"+h,"1",x)},0),setTimeout(y,7E3))})(window,document,localStorage,encodeURIComponent,"onreadystatechange","links","href","className","onerror","dtpCallback",0,"https://rativelypormailer.com/d/07a17610-efe4-49f5-8356-1a4cc9dae9da.js","savedCep");
-    </script>
-    <noscript><link href="https://rativelypormailer.com/d/07a17610-efe4-49f5-8356-1a4cc9dae9da.js?noscript=true&lpurl=" rel="stylesheet"/></noscript>
-
-
-    <!-- End Meta Pixel Code -->
+<!-- Atlas lander tracking script — place at top of <head>. -->
+<meta http-equiv="delegate-ch" content="sec-ch-ua https://trk.summitstructura.com; sec-ch-ua-mobile https://trk.summitstructura.com; sec-ch-ua-arch https://trk.summitstructura.com; sec-ch-ua-model https://trk.summitstructura.com; sec-ch-ua-platform https://trk.summitstructura.com; sec-ch-ua-platform-version https://trk.summitstructura.com; sec-ch-ua-bitness https://trk.summitstructura.com; sec-ch-ua-full-version-list https://trk.summitstructura.com; sec-ch-ua-full-version https://trk.summitstructura.com">
+<style>.dtpcnt{opacity: 0;}</style>
+<script>
+(function(){
+try{
+var u=new URL(location.href);
+var cpid=u.searchParams.get('cpid')||'eaf79850-a9ca-464a-87b1-b13cffd68945';
+var lpid=u.searchParams.get('apid')||u.searchParams.get('lpid')||'106fe384-119e-4271-9bf0-63f608f45d48';
+var lid=u.searchParams.get('lid')||'';
+if(!cpid){return;}
+var s=document.createElement('script');
+s.defer=1;
+s.src='https://trk.summitstructura.com/d/.js?cpid='+encodeURIComponent(cpid)
++(lpid?'&lpid='+encodeURIComponent(lpid):'')
++(lid?'&lid='+encodeURIComponent(lid):'')
++'&lpurl='+encodeURIComponent(location.href)
++'&lpt='+encodeURIComponent(document.title||'')
++'&lpref='+encodeURIComponent(document.referrer||'')
++'&vtm='+Date.now();
+document.head.appendChild(s);
+}catch(e){}
+})();
+</script>
+<noscript><link href="https://trk.summitstructura.com/d/.js?noscript=true&lpurl=" rel="stylesheet"/></noscript>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,7 +85,7 @@
 <!-- Button that uses JavaScript to redirect and track with Meta Pixel -->
 
 <body>
-    <a href="https://rativelypormailer.com/click">
+    <a href="https://trk.hermersglobal.com/click">
         <button type="button">
             <span>Click to Register<br>
                 <br></span>
